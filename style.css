@@ -1,0 +1,65 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.titulo {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.propaganda {
+    text-align: center;
+}
+
+.imagem_fundo {
+    background-image: url("imagem_fundo.jpg"); 
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.informacoes_adicionais1{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #48D1CC;
+    border-radius: 30px; 
+    padding: 10px 30px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.informacoes_adicionais2{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #20B2AA;
+    border-radius: 30px; 
+    padding: 10px 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.informacoes_adicionais3{
+    width: 300px;
+    height: 400px;
+    border: 2px solid #008B8B;
+    border-radius: 30px; 
+    padding: 10px 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
