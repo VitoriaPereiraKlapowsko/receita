@@ -1,17 +1,17 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 5px;
     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
 }
 
 .titulo {
-    color: purple;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    color: #A52A2A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
 }
@@ -20,46 +20,44 @@
     text-align: center;
 }
 
-.imagem_fundo {
-    background-image: url("imagem_fundo.jpg"); 
-    height: 800px;
+body {
+    background-image: url("imagem_de_fundo.avif");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
 }
 
-.informacoes_adicionais1{
-    width: 300px;
-    height: 400px;
-    border: 2px solid #48D1CC;
-    border-radius: 30px; 
+.informacoes_adicionais {
+    display: flex;
     padding: 10px 30px;
+    justify-content: space-around;
+    align-items: center;
     margin: 20px;
-    text-align: center;
-    display: inline-block;
 }
 
-.informacoes_adicionais2{
-    width: 300px;
-    height: 400px;
-    border: 2px solid #20B2AA;
-    border-radius: 30px; 
+.beneficios,
+.vitaminas,
+.conservacao {
+    border: 2px solid #800000;
+    border-radius: 30px;
+    width: 250px;
+    height: 430px;
     padding: 10px 30px;
-    margin: 20px;
     text-align: center;
 }
 
-.informacoes_adicionais3{
-    width: 300px;
-    height: 400px;
-    border: 2px solid #008B8B;
-    border-radius: 30px; 
-    padding: 10px 30px;
-    margin: 20px;
-    text-align: center;
-}
-
-img{
+img {
     display: block;
     margin: auto;
+}
+
+.ingredientes_da_massa,
+.ingredientes_do_recheio,
+.modo_de_preparo_massa,
+.modo_de_preparo_recheio {
+    padding: 55px
+}
+
+.rodape {
+    text-align: center
 }
